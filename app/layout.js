@@ -1,15 +1,18 @@
-import "@styles/index.css";
+import '@/styles/index.css';
+import ReduxProvider from "../store/Provider";
 
 export const metadata = {
-  title: "Renderform",
-  description: "",
+  title: 'Renderform',
+  description: '',
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+    <html lang='en'>
+      <body>
+        <ReduxProvider>
+          {children}
+        </ReduxProvider>
       </body>
     </html>
   );

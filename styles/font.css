@@ -1,0 +1,48 @@
+:root{
+    --font-heading: serif;
+    --font-body: serif;
+    --font-xl: 40px;
+    --font-m: 20px;
+    --font-s: 12px;
+    --font-weight: 200;
+    --font-weight-bold: 400;
+}
+
+h1, h2, h3, h4, h5{
+    font-family: var(--font-body);
+    color: var(--alt-white);
+    font-weight: var(--font-weight);
+}
+
+h1{
+    font-size: var(--font-xl);
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    margin: 0;
+}
+
+h3{
+    font-size: 30px;
+    margin: 0;
+}
+
+h4{
+    font-size: 40px;
+    margin: 0;
+}
+
+p{
+    font-family: var(--font-body);
+    font-size: var(--font-m);
+    color: var(--alt-white);
+    font-weight: var(--font-weight);
+}
+
+
+.label{
+    margin: 0;
+    font-weight: var(--font-weight-bold);
+}

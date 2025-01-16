@@ -1,0 +1,43 @@
+.container{
+    width:  100vw;
+    height: 100vh;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+.splash-container{
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    width:  100vw;
+    height: 100vh;
+}
+
+.section{
+    padding-top: 30px;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0px;
+    height: 50px;
+    right: 10px;
+    width: 50px;
+    background-color: var(--tag);
+    transition: var(--trans-out);
+    cursor: pointer;
+
+    &:hover{
+        transition: var(--trans-in);
+        height: 100px;
+    }
+}
+
+.form{
+    display: grid;
+    padding-top: 20px;
+}
+
+.game-container{
+    /* border: 1px solid white; */
+}
