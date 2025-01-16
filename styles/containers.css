@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+.page-container{
+    padding: 25px;
+}
+
 .splash-container{
     display: flex;
     justify-content: center; 

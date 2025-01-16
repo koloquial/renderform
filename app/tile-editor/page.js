@@ -1,11 +1,11 @@
 'use client'
-import TileEditor from "@/components/TileEditor";
+import MapEditor from "@/components/MapEditor/MapEditor";
 
 export default function Page() {
 
     return (
         <div>
-            <TileEditor />
+            <MapEditor />
         </div>
     );
 }

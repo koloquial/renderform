@@ -6,6 +6,7 @@ export default function Home() {
     <div className='container'>
       <div>
         <h1>Renderform</h1>
+        <Link href='/game'><button>Game</button></Link>
         <Link href='/tile-editor'><button>Map Editor</button></Link>
       </div>
     </div>

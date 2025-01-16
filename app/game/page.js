@@ -2,7 +2,8 @@
 import { useSelector, useDispatch } from 'react-redux';
 import { setName } from '@/store/nameSlice';
 import { useState } from 'react';
-import Canvas from "@/components/Canvas";
+import MapDisplay from '@/components/MapDisplay';
+
 
 export default function NewGame() {
     const [inputName, setInputName] = useState('');
@@ -21,7 +22,7 @@ export default function NewGame() {
     return (
         <div className='container'>
             <div className='game-container'>
-            <Canvas />
+                <MapDisplay />
             </div>
         </div>
     );
